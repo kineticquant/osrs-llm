@@ -24,10 +24,10 @@ hf download microsoft/Phi-3.5-mini-instruct --local-dir models/phi-3.5-mini
 python download_model.py
 ```
 
-### 🛠 Training & Data Pipeline
+## 🛠 Training & Data Pipeline
 This project includes a fully automated data pipeline. To conduct your own training—which includes a full wipe and reload of the data processing layers—use the Streamlit dashboard:
 
-### 🔍 Utilities & Tools
+## 🔍 Utilities & Tools
 
 env_check.py
 
@@ -57,7 +57,7 @@ ls | wc -l
 ADD SCREENSHOTS
 
 
-### 📂 Project Structure
+## 📂 Project Structure
 models/ — Contains the base and fine-tuned Phi-3.5 models.
 data/ — Contains raw and processed OSRS content (as of [DATE]).
 pipelines/ — Logic for data ingestion and transformation.
