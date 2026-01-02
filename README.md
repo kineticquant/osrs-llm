@@ -3,7 +3,7 @@ A highly-performant, lightweight generative AI LLM trained on all OSRS content. 
 
 This repository comes with all raw and cleaned data, as well as binary arrow file with built-in training instructions already prepared. This data is up to date as of [1/2/2026].
 
-### 🚀 Getting started
+## 🚀 Getting started
 
 #### Installation
 Install the necessary dependencies using the provided requirements file:
