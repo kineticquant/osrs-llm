@@ -1,0 +1,27 @@
+# 1. Install torch first (Manual step or top of file)
+--extra-index-url https://download.pytorch.org/whl/cu126
+torch
+#torchvision # not using vision but CUDA has under-the-hood dependencies and references
+#torchaudio # not using vision but CUDA has under-the-hood dependencies and references
+
+# 2. Core Training Stack
+transformers
+peft
+trl
+datasets
+accelerate
+bitsandbytes
+
+# 3. Performance (Unsloth is the best choice for my current GPU)
+# Unsloth sometimes requires a specific pip install command:
+# "pip install unsloth[colab-new] @ git+https://github.com/unslothai/unsloth.git"
+unsloth
+
+# 4. Utilities
+# mwclient # possible to use but replaced with requests in pipelines/data.py instead
+streamlit
+pandas
+mwparserfromhell  # markup cleanup
+huggingface_hub  # model dl
+huggingface_hub[cli]
+psutil
