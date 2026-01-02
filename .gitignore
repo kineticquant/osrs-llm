@@ -191,7 +191,8 @@ unsloth_compiled_cache/
 data/raw/
 data/clean/
 
-# Large models
+# Large models - download separately
+models/
 models/osrs-phi-finetuned/
 models/phi-3.5-mini/  # base model download
 
