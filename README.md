@@ -60,7 +60,7 @@ To quickly check the number of raw data files available while data extract is un
 ```
 
 ## 🖥️ The UI
-![Pipeline UI]https://github.com/kineticquant/osrs-llm/blob/main/img/pipeline-in-progress.png?raw=true
+![Pipeline UI](https://github.com/kineticquant/osrs-llm/blob/main/img/pipeline-in-progress.png?raw=true)
 
 ## Acknowledgments
 Base Model: [Microsoft Phi-3.5-mini-instruct](https://huggingface.co/microsoft/Phi-3.5-mini-instruct)
