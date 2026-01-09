@@ -1,6 +1,8 @@
 # OSRS LLM
 A highly-performant, lightweight generative AI LLM trained on all OSRS content, built on top of Phi-3.5-mini-instruct. 
 
+Learn more at https://osrs-llm.pages.dev/ 
+
 Phi-3.5-mini is a lightweight open model built upon datasets used for Phi-3 including synthetic data and filtered publicly available websites with a focus on quality, reasoning dense data. The base model was initially created by Microsoft and is relatively performant by itself, but most importantly can be trained on relatively less expensive GPU's (e.g. 12GB VRAM 3060, etc.). The model belongs to the Phi-3 model family and supports 128K token context length. It underwenta rigorous enhancement process, incorporating both supervised fine-tuning, proximal policy optimization, and direct preference optimization to ensure precise instruction adherence and robust safety measures.
 
 This project comes with a simple Streamlit UI configured for ease of training and progress tracking.
