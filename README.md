@@ -23,9 +23,9 @@ The models directory will contain the base Phi-3.5-mini-instruct model used for 
 hf download microsoft/Phi-3.5-mini-instruct --local-dir models/phi-3.5-mini
 ```
 
-##### Option 2: Using the utility script
+##### Option 2: Using the utility script from project root:
 ```bash
-python download_model.py
+python utils/download_model.py
 ```
 
 ## 🛠 Training & Data Pipeline
@@ -46,13 +46,13 @@ python pipelines/train.py
 #### Environment Check
 Run the environment check utility to ensure your environment is correctly configured to handle Torch and CUDA. Modify requirements.txt accordingly based on your GPU version if applicable.
 ```bash
-python env_check.py
+python utils/env_check.py
 ```
 
 #### Inspecting Data
-To verify the integrity of the processed .arrow file(s), use the inspection utility:
+To verify the integrity of the processed .arrow file(s), use the inspection utility from the project root directory:
 ```bash
-python inspect_arrow.py
+python utils/inspect_arrow.py
 ```
 
 #### Quick File Count
