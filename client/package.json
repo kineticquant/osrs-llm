@@ -1,0 +1,17 @@
+{
+  "name": "osrs-llm-landing",
+  "version": "1.0.0",
+  "description": "Landing page for OSRS LLM - Old School Runescape AI Chat Model",
+  "main": "index.html",
+  "scripts": {
+    "serve": "npx serve . -p 3000"
+  },
+  "keywords": [
+    "osrs",
+    "llm",
+    "ai",
+    "runescape"
+  ],
+  "author": "kineticquant",
+  "license": "MIT"
+}
