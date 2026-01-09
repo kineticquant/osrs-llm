@@ -8,7 +8,7 @@ Phi-3.5-mini is a lightweight open model built upon datasets used for Phi-3 incl
 This project comes with a simple Streamlit UI configured for ease of training and progress tracking.
 
 This repository also contains all raw and cleaned data, as well as binary arrow file with built-in training instructions already prepared. This data is up to date as of [1/2/2026].
-![Benefits](https://github.com/kineticquant/osrs-llm/blob/main/img/Benefits.png?raw=true)
+![Benefits](https://github.com/kineticquant/osrs-llm/blob/main/img/benefits.jpg?raw=true)
 
 ## 🚀 Getting started
 
